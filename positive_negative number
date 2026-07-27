@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{ 
+int a;
+cout<<"enter the number\n";
+cin>>a;
+if(a>0)
+cout<<"positive number\n";
+else if(a<0)
+cout<<"negative number\n";
+else
+cout<<"zere value\n";
+return 0;
+}
